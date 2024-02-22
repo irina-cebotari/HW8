@@ -1,12 +1,11 @@
-body {
-    margin: 32px;
-}
-
 .container {
     display: grid;
-    height: 20px;
     grid-template-columns: 300px;
     gap: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .heading {
@@ -21,7 +20,9 @@ body {
     height: 20px;
     width: 300px;
     padding-top: 10px;
-    border-bottom: 1px solid black;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #000;
     font-size: 12px;
     color: #454545;
     font-family: "Titillium Web", sans-serif;
@@ -41,7 +42,7 @@ body {
 }
 
 .signUp {
-    height: 20px;
+    height: 36px;
     width: 150px;
     padding: 8px;
     background-color: #2a2a2a;
